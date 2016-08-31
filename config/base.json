@@ -18,8 +18,6 @@
     "wifiOn": "null or boolean",
     // 8. BLUETOOTH
     "bluetoothOn": "null or boolean",
-    // 9. SCREEN ROTATION
-    "screenRotationOn": "null or boolean",
     // 10. DATA SYNC
     "dataSync": "null or boolean",
     // 11. MOBILE DATA
@@ -28,6 +26,8 @@
   "screen": {
     // 12. DISPLAY TIMEOUT
     "timeout": "null or integer (in seconds)",
+    // 9. SCREEN ROTATION
+    "RotationOn": "null or boolean",
     // 13. DISPLAY BRIGHTNESS
     "brightness":  "null or integer (0-255)",
     // 14. AUTO-BRIGHTNESS
