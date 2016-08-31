@@ -45,9 +45,9 @@ if (modeConfig.enter.profilesToEnable.length > 0) {
 if (Number.isInteger(modeConfig.volume.notification)) { notificationVol(modeConfig.volume.notification, false, false); }
 if (Number.isInteger(modeConfig.volume.media)) { mediaVol(modeConfig.volume.media, false, false); }
 if (modeConfig.volume.dnd !== null) { performTask('DoNotDisturb', 10, modeConfig.volume.dnd, ''); }
-if (modeConfig.wifiOn !== null) { setWifi(modeConfig.wifiOn); }
-if (modeConfig.bluetoothOn !== null) { setBT(modeConfig.bluetoothOn); }
-if (modeConfig.screenRotationOn !== null) { performTask('DisplayRotate', 10, modeConfig.screenRotationOn, ''); }
+if (modeConfig.net.wifiOn !== null) { setWifi(modeConfig.wifiOn); }
+if (modeConfig.net.bluetoothOn !== null) { setBT(modeConfig.bluetoothOn); }
+if (modeConfig.screen.RotationOn !== null) { performTask('DisplayRotate', 10, modeConfig.screenRotationOn, ''); }
 
 if (modeConfig.enter.tasksToRun.length > 0) {
   for (var t = 0; t < modeConfig.enter.tasksToRun.length; t++) {
